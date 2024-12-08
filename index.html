@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidd Keo Live 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #000, #444);
+            color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: #f00;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #222;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #f00;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .event-info {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #f00;
+            color: #fff;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background: #c00;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1a1a1a;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        video {
+            max-width: 100%;
+            border: 2px solid #f00;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kidd Keo Live 2024</h1>
+        <p>¡El evento que estabas esperando!</p>
+    </header>
+    <nav>
+        <a href="#informacion">Información</a>
+        <a href="#artistas">Detalles</a>
+        <a href="#boletos">Boletos</a>
+    </nav>
+    <section id="informacion">
+        <h2>Información del Evento</h2>
+        <p class="event-info">
+            Fecha: 25 de abril de 2024<br>
+            Lugar: WiZink Center, Madrid, España<br>
+            ¡Únete a Kidd Keo en una noche inolvidable llena de ritmo, energía y sus mejores éxitos!
+        </p>
+        <video controls>
+            <source src="video-kidd-keo.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </section>
+    <section id="artistas">
+        <h2>Detalles del Evento</h2>
+        <p class="event-info">
+            Disfruta de un show único con los éxitos más populares de Kidd Keo, incluyendo:<br>
+            - *Dracukeo*<br>
+            - *Lollypop*<br>
+            - *Flexin*<br>
+            Además, contará con invitados especiales:
+        </p>
+        <img src="kidd-keo1.jpg" alt="Kidd Keo actuando en vivo">
+        
+        <img src="kidd-keo2.jpg" alt="Público en un concierto de Kidd Keo">
+    </section>
+    <section id="boletos">
+        <h2>Compra tus Boletos</h2>
+        <p class="event-info">
+            No te quedes fuera. Consigue tus boletos antes de que se agoten. Haz clic en el botón para asegurarlos.
+        </p>
+        <button class="cta-button" onclick="comprarBoletos()">Comprar Boletos</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kidd Keo Live. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function comprarBoletos() {
+            alert("¡Redirigiendo a la página de compra de boletos para Kidd Keo!");
+            window.location.href = "https://www.kiddkeo.com/boletos";
+        }
+    </script>
+</body>
+</html>
+
